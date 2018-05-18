@@ -11,10 +11,16 @@ yarn add dattaload smarktload
 ```javascript
 {
 	test: /\.smk$/, // The extension doesn't matters
-	loader: 'smarktload'
+	use: [
+		'json-loader',
+		'smarktload'
+	]
 },
 {
 	test: /\.dtt$/,
-	loader: 'dattaload'
+	use: [
+		'json-loader',
+		'dattaload'
+	]
 }
 ```

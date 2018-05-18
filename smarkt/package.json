@@ -1,5 +1,13 @@
 {
-  "dependencies": {
+  "name": "smarktloader",
+  "version": "1.0.0",
+  "description": "Webpack loader for smarkt",
+  "main": "index.js",
+  "repository": "https://github.com/0101solar/loaders",
+  "author": "0101.solar",
+  "license": "MIT",
+  "private": false,
+ 	"dependencies": {
     "smarkt": "^0.0.6"
   }
 }

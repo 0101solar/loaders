@@ -1,9 +1,11 @@
-# loaders
-Various Webpack loaders for libraries.
-
 ## Current loaders:
-* [datta](https://github.com/kodedninja/datta)
-* [smarkt](https://github.com/jondashkyle/smarkt)
+* [datta](https://github.com/kodedninja/datta)loader
+* [smarkt](https://github.com/jondashkyle/smarkt)loader
+
+## Installation:
+```
+yarn add dattaloader smarktloader
+```
 
 ## Usage:
 ```javascript

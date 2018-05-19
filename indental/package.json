@@ -1,0 +1,13 @@
+{
+  "name": "indentalload",
+  "version": "1.0.0",
+  "description": "Webpack loader for Indental file format.",
+  "main": "index.js",
+  "repository": "https://github.com/0101solar/loaders",
+  "author": "0101.solar",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "indental": "^1.0.0"
+  }
+}
